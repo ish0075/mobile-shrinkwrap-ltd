@@ -119,10 +119,14 @@ const Contact = () => {
 
             <div className="bg-card p-6 rounded-lg border border-border">
               <h3 className="text-lg font-semibold text-foreground mb-3">Emergency Services</h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-4">
                 Need urgent protection due to weather damage or unexpected circumstances? 
                 We offer priority emergency services throughout Ontario. Call us for immediate assistance.
               </p>
+              <div className="flex items-center space-x-2 text-lg font-semibold text-primary">
+                <Phone className="w-5 h-5" />
+                <span>(905) 327-4381</span>
+              </div>
             </div>
           </div>
 
