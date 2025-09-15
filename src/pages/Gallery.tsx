@@ -1,37 +1,43 @@
 import { Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import transportCargo from "@/assets/gallery/transport-cargo.jpg";
+import boatWrapping from "@/assets/gallery/boat-wrapping.jpg";
+import machineryWrapping from "@/assets/gallery/machinery-wrapping.jpg";
+import machineryStorage from "@/assets/gallery/machinery-storage.jpg";
+import industrialEquipment from "@/assets/gallery/industrial-equipment.jpg";
+import boatsAutomotive from "@/assets/gallery/boats-automotive.jpg";
 
 const Gallery = () => {
   const galleryImages = [
     {
-      src: "/api/placeholder/600/400",
-      alt: "Boat shrink wrapping service in Ontario marina",
+      src: transportCargo,
+      alt: "Professional shrink wrapping for transport cargo in Toronto - Mobile Shrink Wrap services",
+      title: "Transport Cargo Protection"
+    },
+    {
+      src: boatWrapping, 
+      alt: "Boat shrink wrapping services in Niagara region - Winter protection for marine vessels",
       title: "Boat Winterization"
     },
     {
-      src: "/api/placeholder/600/400", 
-      alt: "Industrial machinery shrink wrap protection",
+      src: machineryWrapping,
+      alt: "Industrial machinery shrink wrap protection - Outdoor storage solutions Ontario",
       title: "Machinery Protection"
     },
     {
-      src: "/api/placeholder/600/400",
-      alt: "Construction equipment shrink wrapping",
-      title: "Construction Wrapping"
+      src: machineryStorage,
+      alt: "Heavy equipment shrink wrapping for outdoor storage - Professional industrial wrapping",
+      title: "Equipment Storage"
     },
     {
-      src: "/api/placeholder/600/400",
-      alt: "Transport cargo shrink wrap service",
-      title: "Cargo Protection"
+      src: industrialEquipment,
+      alt: "Industrial equipment shrink wrap services - Weather protection for machinery",
+      title: "Industrial Wrapping"
     },
     {
-      src: "/api/placeholder/600/400",
-      alt: "Mobile shrink wrap team at work",
-      title: "Professional Team"
-    },
-    {
-      src: "/api/placeholder/600/400",
-      alt: "Completed shrink wrap project in Ontario",
-      title: "Quality Results"
+      src: boatsAutomotive,
+      alt: "Boat and automotive shrink wrapping in Niagara - Marine and vehicle protection services",
+      title: "Marine & Automotive"
     }
   ];
 
@@ -111,7 +117,7 @@ const Gallery = () => {
               Get Free Quote
             </Button>
             <Button variant="outline" size="lg">
-              Call (519) 123-4567
+              Call (905) 327-4381
             </Button>
           </div>
         </div>

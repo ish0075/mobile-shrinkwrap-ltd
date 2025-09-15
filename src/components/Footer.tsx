@@ -40,7 +40,7 @@ const Footer = () => {
               Ontario's trusted mobile shrink wrapping service. Protecting your valuable assets with professional on-site solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://m.facebook.com/mobileshrinkwrapservices/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -95,7 +95,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-gray-300 text-sm">(XXX) XXX-XXXX</span>
+                <span className="text-gray-300 text-sm">(905) 327-4381</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />

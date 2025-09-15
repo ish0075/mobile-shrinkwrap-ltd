@@ -52,7 +52,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>(XXX) XXX-XXXX</span>
+              <span>(905) 327-4381</span>
             </div>
             <Button variant="cta" size="lg">
               Get Free Quote
@@ -91,7 +91,7 @@ const Header = () => {
               <div className="pt-4 border-t border-border">
                 <div className="flex items-center space-x-2 px-3 py-2 text-sm text-muted-foreground">
                   <Phone className="w-4 h-4" />
-                  <span>(XXX) XXX-XXXX</span>
+                  <span>(905) 327-4381</span>
                 </div>
                 <div className="px-3 pt-2">
                   <Button variant="cta" size="lg" className="w-full">
