@@ -32,7 +32,7 @@ const Footer = () => {
                 <span className="text-primary-foreground font-bold text-lg">MSW</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold">Mobile Shrink Wrap</h3>
+                <h3 className="text-lg font-bold">Mobile Shrink Wrap Ltd</h3>
                 <p className="text-sm text-gray-300">Professional Protection Services</p>
               </div>
             </div>
@@ -98,6 +98,10 @@ const Footer = () => {
                 <span className="text-gray-300 text-sm">(905) 327-4381</span>
               </div>
               <div className="flex items-center space-x-3">
+                <Phone className="w-4 h-4 text-primary" />
+                <span className="text-gray-300 text-sm">(905) 328-1271</span>
+              </div>
+              <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
                 <span className="text-gray-300 text-sm">info@mobileshrinkwrap.ca</span>
               </div>
@@ -112,7 +116,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Mobile Shrink Wrap. All rights reserved.
+            © {currentYear} Mobile Shrink Wrap Ltd. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">

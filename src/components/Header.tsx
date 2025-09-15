@@ -28,7 +28,7 @@ const Header = () => {
               <span className="text-primary-foreground font-bold text-lg">MSW</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-foreground">Mobile Shrink Wrap</span>
+              <span className="text-lg font-bold text-foreground">Mobile Shrink Wrap Ltd</span>
               <span className="text-xs text-muted-foreground">Professional Protection Services</span>
             </div>
           </Link>
@@ -50,9 +50,16 @@ const Header = () => {
 
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <Phone className="w-4 h-4" />
-              <span>(905) 327-4381</span>
+            <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+              <div className="flex items-center space-x-2">
+                <Phone className="w-4 h-4" />
+                <span>(905) 327-4381</span>
+              </div>
+              <div className="text-muted-foreground">|</div>
+              <div className="flex items-center space-x-2">
+                <Phone className="w-4 h-4" />
+                <span>(905) 328-1271</span>
+              </div>
             </div>
             <Button variant="cta" size="lg">
               Get Free Quote
@@ -89,9 +96,15 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-4 border-t border-border">
-                <div className="flex items-center space-x-2 px-3 py-2 text-sm text-muted-foreground">
-                  <Phone className="w-4 h-4" />
-                  <span>(905) 327-4381</span>
+                <div className="space-y-2 px-3 py-2 text-sm text-muted-foreground">
+                  <div className="flex items-center space-x-2">
+                    <Phone className="w-4 h-4" />
+                    <span>(905) 327-4381</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Phone className="w-4 h-4" />
+                    <span>(905) 328-1271</span>
+                  </div>
                 </div>
                 <div className="px-3 pt-2">
                   <Button variant="cta" size="lg" className="w-full">

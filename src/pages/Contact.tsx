@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-foreground mb-4">
-              Contact Mobile Shrink Wrap
+              Contact Mobile Shrink Wrap Ltd
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Ready to protect your valuable assets? Get in touch for a free quote and expert advice.
@@ -55,7 +55,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
@@ -63,6 +63,18 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                       <p className="text-muted-foreground">(905) 327-4381</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Phone className="w-6 h-6 text-primary mt-1" />
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-1">Phone 2</h3>
+                      <p className="text-muted-foreground">(905) 328-1271</p>
                     </div>
                   </div>
                 </CardContent>
