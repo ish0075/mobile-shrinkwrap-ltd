@@ -197,8 +197,8 @@ const ServiceAreas = () => {
             <Button variant="cta" size="lg">
               Request Service Quote
             </Button>
-            <Button variant="outline" size="lg">
-              Call (XXX) XXX-XXXX
+            <Button variant="outline" size="lg" asChild>
+              <a href="tel:+19053281271">Call (905) 328-1271</a>
             </Button>
           </div>
         </div>
