@@ -16,7 +16,7 @@ const Header = () => {
   const navigation = [
     { name: "Home", href: "/" },
     { 
-      name: "Shrink Wrap Services", 
+      name: "Mobile Shrinkwrap Services", 
       href: "/services",
       dropdown: [
         { name: "Boat Shrink Wrapping", href: "/boat-shrink-wrapping" },
