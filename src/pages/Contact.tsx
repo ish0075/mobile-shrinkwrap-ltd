@@ -67,7 +67,7 @@ const Contact = () => {
               <div className="flex items-start space-x-4 p-6">
                 <Phone className="w-6 h-6 text-primary mt-1" />
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Phone 2</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Mobile Shrink Wrap Services</h3>
                   <p className="text-muted-foreground">(905) 328-1271</p>
                 </div>
               </div>
