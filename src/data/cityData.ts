@@ -230,8 +230,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We regularly service marine and port facilities, following all safety protocols for working near water." 
       }
     ],
-    phone: "+1-905-XXX-XXXX",
-    phoneDisplay: "(905) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Hamilton, ON",
     openHours: "Mon–Sat 7:00–18:00",
