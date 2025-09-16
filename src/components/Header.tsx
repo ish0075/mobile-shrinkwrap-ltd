@@ -13,6 +13,7 @@ const Header = () => {
     { name: "Boat Wrapping", href: "/boat-shrink-wrapping" },
     { name: "Machinery", href: "/machinery-shrink-wrapping" },
     { name: "Transport & Cargo", href: "/transport-cargo-shrink-wrapping" },
+    { name: "Construction", href: "/construction-wrapping" },
     { name: "Service Areas", href: "/service-areas" },
     { name: "Gallery", href: "/gallery" },
     { name: "FAQ", href: "/faq" },
