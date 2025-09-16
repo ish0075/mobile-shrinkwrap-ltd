@@ -12,6 +12,7 @@ const Hero = () => {
           alt="Professional machinery and industrial equipment shrink wrapping services in Ontario"
           className="w-full h-full object-cover"
           fetchPriority="high"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50"></div>
       </div>
