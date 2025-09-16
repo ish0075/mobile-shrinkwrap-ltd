@@ -18,6 +18,7 @@ import scaffoldingShrinkwrap from "@/assets/gallery/scaffolding-shrinkwrap.jpg";
 import generatorShrinkwrap from "@/assets/gallery/generator-shrinkwrap.jpg";
 import foodEquipmentShrinkwrap from "@/assets/gallery/food-equipment-shrinkwrap.jpg";
 import dockEquipmentShrinkwrap from "@/assets/gallery/dock-equipment-shrinkwrap.jpg";
+import storageContainerShrinkwrap from "@/assets/gallery/storage-container-shrinkwrap.jpg";
 
 const Gallery = () => {
   const galleryImages = [
@@ -110,6 +111,11 @@ const Gallery = () => {
       src: dockEquipmentShrinkwrap,
       alt: "Marine dock equipment shrink wrapping - Waterfront equipment protection services Ontario",
       title: "Marine Dock Equipment"
+    },
+    {
+      src: storageContainerShrinkwrap,
+      alt: "Storage container shrink wrapping - Professional container protection with white shrink wrap material",
+      title: "Storage Container Protection"
     }
   ];
 
