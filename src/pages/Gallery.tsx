@@ -180,13 +180,6 @@ const Gallery = () => {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-white font-semibold text-lg mb-2 drop-shadow-lg">
-                      {image.title}
-                    </h3>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
