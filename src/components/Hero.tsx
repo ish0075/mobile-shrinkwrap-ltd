@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Phone, MapPin, CheckCircle } from "lucide-react";
-import heroImage from "@/assets/hero-shrink-wrap.jpg";
+import heroImage from "@/assets/hero-machinery-shrinkwrap.jpg";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional boat shrink wrapping service in Ontario marina"
+          alt="Professional machinery and industrial equipment shrink wrapping services in Ontario"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50"></div>
