@@ -140,7 +140,7 @@ const ServiceAreas = () => {
                 </p>
                 <Link to={`/shrink-wrapping-${city.slug}-on`}>
                   <Button variant="outline" className="w-full">
-                    View {city.name} Services
+                    View Shrinkwrap Services Near {city.name}
                   </Button>
                 </Link>
               </CardContent>
