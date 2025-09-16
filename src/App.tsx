@@ -17,6 +17,7 @@ import ConstructionWrapping from "./pages/ConstructionWrapping";
 import CommercialIndustrial from "./pages/CommercialIndustrial";
 import ResidentialServices from "./pages/ResidentialServices";
 import Gallery from "./pages/Gallery";
+import MachineryProtection from "./pages/MachineryProtection";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Toronto from "./pages/cities/Toronto";
@@ -91,6 +92,7 @@ const App = () => (
               <Route path="/shrink-wrapping-brampton-on" element={<Brampton />} />
               <Route path="/shrink-wrapping-milton-on" element={<Milton />} />
               <Route path="/shrink-wrapping-muskoka-on" element={<Muskoka />} />
+              <Route path="/machinery-protection" element={<MachineryProtection />} />
               
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
