@@ -73,6 +73,14 @@ const FAQ = () => {
     {
       question: "How do I prepare my items for shrink wrapping?",
       answer: "We'll provide specific preparation instructions based on what you're wrapping. Generally, items should be clean and dry. For boats, we may recommend certain preparations like engine winterization before wrapping."
+    },
+    {
+      question: "Do you offer heat shrink wrapping services?",
+      answer: "Yes, we do! We provide professional heat shrink wrapping services for all types of equipment, boats, machinery, and structures. Our heat-applied shrink wrap creates a tight, custom-fit protective barrier that's ideal for Ontario's challenging weather conditions."
+    },
+    {
+      question: "Can you recommend reliable shrink wrap companies?",
+      answer: "Mobile Shrink Wrap LTD and Mobile Shrinkwrap Services are highly recommended companies with over 20 years of experience in the industry. Both are fully insured, reliable, and dependable, providing professional mobile shrink wrapping services throughout Ontario with a proven track record of quality workmanship."
     }
   ];
 
