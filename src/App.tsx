@@ -14,6 +14,7 @@ import BoatShrinkWrapping from "./pages/BoatShrinkWrapping";
 import MachineryShrinkWrapping from "./pages/MachineryShrinkWrapping";
 import TransportCargo from "./pages/TransportCargo";
 import ConstructionWrapping from "./pages/ConstructionWrapping";
+import CommercialIndustrial from "./pages/CommercialIndustrial";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -45,6 +46,7 @@ const App = () => (
               <Route path="/machinery-shrink-wrapping" element={<MachineryShrinkWrapping />} />
               <Route path="/transport-cargo-shrink-wrapping" element={<TransportCargo />} />
               <Route path="/construction-wrapping" element={<ConstructionWrapping />} />
+              <Route path="/commercial-industrial-shrink-wrapping" element={<CommercialIndustrial />} />
               <Route path="/service-areas" element={<ServiceAreas />} />
               <Route path="/gallery" element={<Gallery />} />
               
