@@ -76,7 +76,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                  <p className="text-muted-foreground">info@mobileshrinkwrap.ca</p>
+                  <p className="text-muted-foreground">mobileshrinkwrapltd@gmail.com</p>
                 </div>
               </div>
 
