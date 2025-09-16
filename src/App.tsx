@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import ServiceAreas from "./pages/ServiceAreas";
 import Services from "./pages/Services";
 import BoatShrinkWrapping from "./pages/BoatShrinkWrapping";
+import MachineryShrinkWrapping from "./pages/MachineryShrinkWrapping";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -33,6 +34,7 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/services" element={<Services />} />
               <Route path="/boat-shrink-wrapping" element={<BoatShrinkWrapping />} />
+              <Route path="/machinery-shrink-wrapping" element={<MachineryShrinkWrapping />} />
               <Route path="/service-areas" element={<ServiceAreas />} />
               <Route path="/gallery" element={<Gallery />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
