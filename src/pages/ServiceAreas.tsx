@@ -2,6 +2,7 @@ import { MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import ServiceAreasMap from "@/components/ServiceAreasMap";
 
 const ServiceAreas = () => {
   const cities = [
@@ -148,23 +149,8 @@ const ServiceAreas = () => {
           ))}
         </div>
 
-        {/* Service Area Map Placeholder */}
-        <div className="bg-card rounded-lg border border-border p-8 mb-16">
-          <div className="text-center">
-            <h3 className="text-xl font-bold text-foreground mb-4">
-              Ontario Service Coverage Map
-            </h3>
-            <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">
-                Interactive service area map coming soon
-              </p>
-            </div>
-            <p className="text-muted-foreground mt-4">
-              We serve all major cities and towns throughout Ontario. 
-              Don't see your location listed? Contact us - we likely serve your area!
-            </p>
-          </div>
-        </div>
+        {/* Interactive Service Area Map */}
+        <ServiceAreasMap cities={cities} />
 
         {/* Service Benefits */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
