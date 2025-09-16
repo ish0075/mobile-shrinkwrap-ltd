@@ -12,6 +12,7 @@ const Header = () => {
     { name: "Services", href: "/services" },
     { name: "Boat Wrapping", href: "/boat-shrink-wrapping" },
     { name: "Machinery", href: "/machinery-shrink-wrapping" },
+    { name: "Transport & Cargo", href: "/transport-cargo-shrink-wrapping" },
     { name: "Service Areas", href: "/service-areas" },
     { name: "Gallery", href: "/gallery" },
     { name: "FAQ", href: "/faq" },
