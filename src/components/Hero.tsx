@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="text-white">
             <div className="flex items-center space-x-2 mb-6">
               <Shield className="w-8 h-8 text-secondary" />
-              <span className="text-secondary font-semibold text-lg">Professional Protection Since 2010</span>
+              <span className="text-secondary font-semibold text-lg">Professional Protection Since 2005</span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
