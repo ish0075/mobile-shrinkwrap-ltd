@@ -19,6 +19,7 @@ import generatorShrinkwrap from "@/assets/gallery/generator-shrinkwrap.jpg";
 import foodEquipmentShrinkwrap from "@/assets/gallery/food-equipment-shrinkwrap.jpg";
 import dockEquipmentShrinkwrap from "@/assets/gallery/dock-equipment-shrinkwrap.jpg";
 import storageContainerShrinkwrap from "@/assets/gallery/storage-container-shrinkwrap.jpg";
+import tractorWhiteShrinkwrap from "@/assets/gallery/tractor-white-shrinkwrap.jpg";
 
 const Gallery = () => {
   const galleryImages = [
@@ -116,6 +117,11 @@ const Gallery = () => {
       src: storageContainerShrinkwrap,
       alt: "Storage container shrink wrapping - Professional container protection with white shrink wrap material",
       title: "Storage Container Protection"
+    },
+    {
+      src: tractorWhiteShrinkwrap,
+      alt: "Agricultural tractor shrink wrapping - Farm equipment covered in white shrink wrap for winter protection",
+      title: "Tractor Winter Protection"
     }
   ];
 
