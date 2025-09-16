@@ -92,7 +92,7 @@ const Contact = () => {
                 <Clock className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Hours</h3>
-                  <p className="text-muted-foreground">Mon-Sat: 8AM-6PM</p>
+                  <p className="text-muted-foreground">24/7</p>
                 </div>
               </div>
             </div>
