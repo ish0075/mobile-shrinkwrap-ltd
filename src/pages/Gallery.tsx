@@ -137,7 +137,7 @@ const Gallery = () => {
       <section className="relative bg-gradient-marine text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-black">
               Professional Shrink Wrap Gallery
             </h1>
             <p className="text-xl mb-8 text-marine-light">
