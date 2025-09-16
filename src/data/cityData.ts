@@ -178,8 +178,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We work with cargo facilities and equipment near Pearson, following all airport security protocols." 
       }
     ],
-    phone: "+1-905-XXX-XXXX",
-    phoneDisplay: "(905) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Mississauga, ON",
     openHours: "Mon–Sat 7:00–18:00",
