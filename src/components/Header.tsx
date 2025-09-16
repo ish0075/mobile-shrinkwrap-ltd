@@ -90,8 +90,8 @@ const Header = () => {
 
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="cta" size="lg">
-              Get Free Quote
+            <Button variant="cta" size="lg" asChild>
+              <Link to="/contact">Get Free Quote</Link>
             </Button>
           </div>
 
@@ -154,8 +154,8 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t border-border">
                 <div className="px-3 pt-2">
-                  <Button variant="cta" size="lg" className="w-full">
-                    Get Free Quote
+                  <Button variant="cta" size="lg" className="w-full" asChild>
+                    <Link to="/contact">Get Free Quote</Link>
                   </Button>
                 </div>
               </div>
