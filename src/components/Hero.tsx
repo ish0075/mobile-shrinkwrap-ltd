@@ -65,10 +65,12 @@ const Hero = () => {
                 variant="cta-outline" 
                 size="xl" 
                 className="text-lg border-white text-white hover:bg-white hover:text-primary"
-                onClick={() => window.open('https://lovable.dev/projects/04a683e9-f684-4352-b09f-048889d1d593', '_blank')}
+                asChild
               >
-                <MapPin className="w-5 h-5 mr-2" />
-                View Service Areas
+                <a href="/service-areas">
+                  <MapPin className="w-5 h-5 mr-2" />
+                  View Service Areas
+                </a>
               </Button>
             </div>
 
