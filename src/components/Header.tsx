@@ -24,7 +24,7 @@ const Header = () => {
         { name: "Transport & Cargo", href: "/transport-cargo-shrink-wrapping" },
         { name: "Construction Wrapping", href: "/construction-wrapping" },
         { name: "Commercial & Industrial", href: "/commercial-industrial-shrink-wrapping" },
-        { name: "Residential Services", href: "/services" },
+        { name: "Residential Services", href: "/residential-shrink-wrapping" },
       ]
     },
     { name: "Service Areas", href: "/service-areas" },
