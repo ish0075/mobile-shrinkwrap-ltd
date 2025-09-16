@@ -20,6 +20,7 @@ const Header = () => {
       href: "/services",
       dropdown: [
         { name: "Boat Shrink Wrapping", href: "/boat-shrink-wrapping" },
+        { name: "Machinery Protection", href: "/machinery-protection" },
         { name: "Machinery Shrink Wrapping", href: "/machinery-shrink-wrapping" },
         { name: "Transport & Cargo", href: "/transport-cargo-shrink-wrapping" },
         { name: "Construction Wrapping", href: "/construction-wrapping" },
