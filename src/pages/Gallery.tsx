@@ -138,10 +138,10 @@ const Gallery = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Our Work Gallery
+              Professional Shrink Wrap Gallery
             </h1>
             <p className="text-xl mb-8 text-marine-light">
-              See our professional shrink wrapping services in action across Ontario
+              Explore our extensive portfolio of shrink wrapping projects across Ontario. From boats and machinery to construction sites and cargo protection, see the quality and precision that sets Mobile Shrink Wrap apart.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
