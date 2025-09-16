@@ -15,6 +15,21 @@ const ServiceAreas = () => {
     { name: "Sudbury", href: "/shrink-wrapping-sudbury-on" },
     { name: "Kingston", href: "/shrink-wrapping-kingston-on" },
     { name: "Barrie", href: "/shrink-wrapping-barrie-on" },
+    { name: "St. Catharines", href: "/shrink-wrapping-st-catharines-on" },
+    { name: "Brampton", href: "/shrink-wrapping-brampton-on" },
+    { name: "Scarborough", href: "/shrink-wrapping-scarborough-on" },
+    { name: "Milton", href: "/shrink-wrapping-milton-on" },
+    { name: "Grimsby", href: "/shrink-wrapping-grimsby-on" },
+    { name: "Welland", href: "/shrink-wrapping-welland-on" },
+    { name: "Thorold", href: "/shrink-wrapping-thorold-on" },
+    { name: "Niagara On The Lake", href: "/shrink-wrapping-niagara-on-the-lake-on" },
+    { name: "Fort Erie", href: "/shrink-wrapping-fort-erie-on" },
+    { name: "Port Colborne", href: "/shrink-wrapping-port-colborne-on" },
+    { name: "Fonthill", href: "/shrink-wrapping-fonthill-on" },
+    { name: "Wainfleet", href: "/shrink-wrapping-wainfleet-on" },
+    { name: "Stoney Creek", href: "/shrink-wrapping-stoney-creek-on" },
+    { name: "Lincoln", href: "/shrink-wrapping-lincoln-on" },
+    { name: "Muskoka", href: "/shrink-wrapping-muskoka-on" },
   ];
 
   const regions = [

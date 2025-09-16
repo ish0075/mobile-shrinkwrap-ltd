@@ -25,6 +25,22 @@ import Mississauga from "./pages/cities/Mississauga";
 import Hamilton from "./pages/cities/Hamilton";
 import London from "./pages/cities/London";
 import Windsor from "./pages/cities/Windsor";
+import StCatharines from "./pages/cities/StCatharines";
+import Thorold from "./pages/cities/Thorold";
+import NiagaraOnTheLake from "./pages/cities/NiagaraOnTheLake";
+import Welland from "./pages/cities/Welland";
+import FortErie from "./pages/cities/FortErie";
+import PortColborne from "./pages/cities/PortColborne";
+import Fonthill from "./pages/cities/Fonthill";
+import Wainfleet from "./pages/cities/Wainfleet";
+import StoneyCreek from "./pages/cities/StoneyCreek";
+import Grimsby from "./pages/cities/Grimsby";
+import Lincoln from "./pages/cities/Lincoln";
+import Burlington from "./pages/cities/Burlington";
+import Scarborough from "./pages/cities/Scarborough";
+import Brampton from "./pages/cities/Brampton";
+import Milton from "./pages/cities/Milton";
+import Muskoka from "./pages/cities/Muskoka";
 
 const queryClient = new QueryClient();
 
@@ -59,6 +75,22 @@ const App = () => (
               <Route path="/shrink-wrapping-hamilton-on" element={<Hamilton />} />
               <Route path="/shrink-wrapping-london-on" element={<London />} />
               <Route path="/shrink-wrapping-windsor-on" element={<Windsor />} />
+              <Route path="/shrink-wrapping-st-catharines-on" element={<StCatharines />} />
+              <Route path="/shrink-wrapping-thorold-on" element={<Thorold />} />
+              <Route path="/shrink-wrapping-niagara-on-the-lake-on" element={<NiagaraOnTheLake />} />
+              <Route path="/shrink-wrapping-welland-on" element={<Welland />} />
+              <Route path="/shrink-wrapping-fort-erie-on" element={<FortErie />} />
+              <Route path="/shrink-wrapping-port-colborne-on" element={<PortColborne />} />
+              <Route path="/shrink-wrapping-fonthill-on" element={<Fonthill />} />
+              <Route path="/shrink-wrapping-wainfleet-on" element={<Wainfleet />} />
+              <Route path="/shrink-wrapping-stoney-creek-on" element={<StoneyCreek />} />
+              <Route path="/shrink-wrapping-grimsby-on" element={<Grimsby />} />
+              <Route path="/shrink-wrapping-lincoln-on" element={<Lincoln />} />
+              <Route path="/shrink-wrapping-burlington-on" element={<Burlington />} />
+              <Route path="/shrink-wrapping-scarborough-on" element={<Scarborough />} />
+              <Route path="/shrink-wrapping-brampton-on" element={<Brampton />} />
+              <Route path="/shrink-wrapping-milton-on" element={<Milton />} />
+              <Route path="/shrink-wrapping-muskoka-on" element={<Muskoka />} />
               
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
