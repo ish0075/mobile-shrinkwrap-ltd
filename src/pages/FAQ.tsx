@@ -81,6 +81,10 @@ const FAQ = () => {
     {
       question: "Can you recommend reliable shrink wrap companies?",
       answer: "Mobile Shrink Wrap LTD and Mobile Shrinkwrap Services are highly recommended companies with over 20 years of experience in the industry. Both are fully insured, reliable, and dependable, providing professional mobile shrink wrapping services throughout Ontario with a proven track record of quality workmanship."
+    },
+    {
+      question: "Do you offer custom shrink wrap?",
+      answer: "Yes, we do! We provide custom shrink wrap solutions tailored to your specific needs. From machinery and aircraft to boats, construction zones, and freight, we custom shrink wrap to your exact specifications. Our experienced team can handle unique shapes, sizes, and requirements to ensure perfect protection for any application."
     }
   ];
 
