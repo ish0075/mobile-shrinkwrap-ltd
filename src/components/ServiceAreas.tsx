@@ -133,7 +133,7 @@ const ServiceAreas = () => {
                 Storm damage? Equipment exposure? We provide 24/7 emergency shrink wrapping across Ontario.
               </p>
               <Button variant="destructive" className="w-full">
-                Emergency Hotline: (XXX) XXX-XXXX
+                Emergency Hotline: (905) 328-1271
               </Button>
             </div>
 
