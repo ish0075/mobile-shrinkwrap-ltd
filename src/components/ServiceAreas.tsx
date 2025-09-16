@@ -33,14 +33,14 @@ const ServiceAreas = () => {
   ];
 
   const regions = [
-    "Greater Toronto Area (GTA)",
-    "Golden Horseshoe",
-    "Muskoka Region", 
-    "Kawarthas",
-    "Niagara Region",
-    "Southwest Ontario",
-    "Eastern Ontario",
-    "Central Ontario"
+    { name: "Greater Toronto Area (GTA)", href: "/regions/gta" },
+    { name: "Golden Horseshoe", href: "/regions/golden-horseshoe" },
+    { name: "Muskoka Region", href: "/regions/muskoka" }, 
+    { name: "Kawarthas", href: "#" },
+    { name: "Niagara Region", href: "/regions/niagara" },
+    { name: "Southwest Ontario", href: "/regions/southwest-ontario" },
+    { name: "Eastern Ontario", href: "/regions/eastern-ontario" },
+    { name: "Central Ontario", href: "#" }
   ];
 
   return (
@@ -85,10 +85,14 @@ const ServiceAreas = () => {
             <h4 className="text-lg font-semibold text-foreground mb-4">Service Regions</h4>
             <div className="grid sm:grid-cols-2 gap-3">
               {regions.map((region) => (
-                <div key={region} className="flex items-center space-x-2 text-muted-foreground">
-                  <div className="w-1.5 h-1.5 bg-secondary rounded-full"></div>
-                  <span className="text-sm">{region}</span>
-                </div>
+                <a
+                  key={region.name}
+                  href={region.href}
+                  className="group flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors p-2 rounded hover:bg-muted/50"
+                >
+                  <div className="w-1.5 h-1.5 bg-secondary rounded-full group-hover:bg-primary transition-colors"></div>
+                  <span className="text-sm">{region.name}</span>
+                </a>
               ))}
             </div>
 
