@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
-              Ontario's <span className="gradient-text text-secondary">Mobile</span> Shrink Wrap Experts
+              Ontario's <span className="text-white">Mobile</span> Shrink Wrap Experts
             </h1>
             
             <p className="text-xl lg:text-2xl text-white/90 mb-8 leading-relaxed">
