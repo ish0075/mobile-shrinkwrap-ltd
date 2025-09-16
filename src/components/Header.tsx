@@ -93,11 +93,6 @@ const Header = () => {
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>(905) 327-4381</span>
-              </div>
-              <div className="text-muted-foreground">|</div>
-              <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
                 <span>(905) 328-1271</span>
               </div>
             </div>
@@ -165,10 +160,6 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t border-border">
                 <div className="space-y-2 px-3 py-2 text-sm text-muted-foreground">
-                  <div className="flex items-center space-x-2">
-                    <Phone className="w-4 h-4" />
-                    <span>(905) 327-4381</span>
-                  </div>
                   <div className="flex items-center space-x-2">
                     <Phone className="w-4 h-4" />
                     <span>(905) 328-1271</span>
