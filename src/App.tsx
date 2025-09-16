@@ -17,6 +17,12 @@ import ConstructionWrapping from "./pages/ConstructionWrapping";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Toronto from "./pages/cities/Toronto";
+import Ottawa from "./pages/cities/Ottawa";
+import Mississauga from "./pages/cities/Mississauga";
+import Hamilton from "./pages/cities/Hamilton";
+import London from "./pages/cities/London";
+import Windsor from "./pages/cities/Windsor";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +47,15 @@ const App = () => (
               <Route path="/construction-wrapping" element={<ConstructionWrapping />} />
               <Route path="/service-areas" element={<ServiceAreas />} />
               <Route path="/gallery" element={<Gallery />} />
+              
+              {/* City Pages */}
+              <Route path="/shrink-wrapping-toronto-on" element={<Toronto />} />
+              <Route path="/shrink-wrapping-ottawa-on" element={<Ottawa />} />
+              <Route path="/shrink-wrapping-mississauga-on" element={<Mississauga />} />
+              <Route path="/shrink-wrapping-hamilton-on" element={<Hamilton />} />
+              <Route path="/shrink-wrapping-london-on" element={<London />} />
+              <Route path="/shrink-wrapping-windsor-on" element={<Windsor />} />
+              
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
