@@ -42,6 +42,12 @@ import Scarborough from "./pages/cities/Scarborough";
 import Brampton from "./pages/cities/Brampton";
 import Milton from "./pages/cities/Milton";
 import Muskoka from "./pages/cities/Muskoka";
+import GTA from "./pages/regions/GTA";
+import GoldenHorseshoe from "./pages/regions/GoldenHorseshoe";
+import MuskokaMini from "./pages/regions/Muskoka";
+import Niagara from "./pages/regions/Niagara";
+import SouthwestOntario from "./pages/regions/SouthwestOntario";
+import EasternOntario from "./pages/regions/EasternOntario";
 
 const queryClient = new QueryClient();
 
@@ -93,6 +99,14 @@ const App = () => (
               <Route path="/shrink-wrapping-milton-on" element={<Milton />} />
               <Route path="/shrink-wrapping-muskoka-on" element={<Muskoka />} />
               <Route path="/machinery-protection" element={<MachineryProtection />} />
+              
+              {/* Region Pages */}
+              <Route path="/regions/gta" element={<GTA />} />
+              <Route path="/regions/golden-horseshoe" element={<GoldenHorseshoe />} />
+              <Route path="/regions/muskoka" element={<MuskokaMini />} />
+              <Route path="/regions/niagara" element={<Niagara />} />
+              <Route path="/regions/southwest-ontario" element={<SouthwestOntario />} />
+              <Route path="/regions/eastern-ontario" element={<EasternOntario />} />
               
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
