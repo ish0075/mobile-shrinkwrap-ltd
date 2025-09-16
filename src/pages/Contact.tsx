@@ -130,20 +130,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">Request a Free Quote</CardTitle>
-              <p className="text-muted-foreground">
-                Fill out the form below and we'll get back to you within 24 hours with a personalized quote.
-              </p>
-            </CardHeader>
-            <CardContent>
-              <div className="text-center p-8">
-                <p className="text-muted-foreground">Contact form coming soon. Please call us directly for immediate assistance.</p>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </div>
