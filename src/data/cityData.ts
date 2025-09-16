@@ -126,8 +126,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "Our heavy-duty materials are tested for extreme cold and wind conditions common in the capital region." 
       }
     ],
-    phone: "+1-613-XXX-XXXX",
-    phoneDisplay: "(613) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Ottawa, ON",
     openHours: "Mon–Sat 7:00–18:00",
