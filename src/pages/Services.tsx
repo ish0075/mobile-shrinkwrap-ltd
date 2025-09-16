@@ -18,43 +18,63 @@ import {
   Star
 } from "lucide-react";
 
+// Import service images
+import boatShrinkwrap from "@/assets/services/boat-shrinkwrap.jpg";
+import machineryShrinkwrap from "@/assets/services/machinery-shrinkwrap.jpg";
+import freightShrinkwrap from "@/assets/services/freight-shrinkwrap.jpg";
+import constructionShrinkwrap from "@/assets/services/construction-shrinkwrap.jpg";
+import transportShrinkwrap from "@/assets/services/transport-shrinkwrap.jpg";
+import homesShrinkwrap from "@/assets/services/homes-shrinkwrap.jpg";
+
 const Services = () => {
   const services = [
     {
       icon: <Ship className="h-8 w-8" />,
       title: "Marine Vessels & Boats",
       description: "Professional shrink wrapping for boats, yachts, and marine vessels of all sizes",
-      features: ["Winter protection", "UV resistance", "Moisture barrier", "Custom fitting"]
+      features: ["Winter protection", "UV resistance", "Moisture barrier", "Custom fitting"],
+      image: boatShrinkwrap,
+      alt: "Professional boat shrink wrapping service showing yacht covered in protective wrap at marina"
     },
     {
       icon: <Truck className="h-8 w-8" />,
       title: "Commercial Equipment",
       description: "Industrial machinery and commercial equipment protection services",
-      features: ["Heavy machinery", "Construction equipment", "Agricultural tools", "Storage protection"]
+      features: ["Heavy machinery", "Construction equipment", "Agricultural tools", "Storage protection"],
+      image: machineryShrinkwrap,
+      alt: "Heavy commercial machinery and industrial equipment covered in protective shrink wrap"
     },
     {
       icon: <Building className="h-8 w-8" />,
       title: "Freight & Cargo",
       description: "Secure shrink wrapping for freight, cargo, and shipping containers",
-      features: ["Weather protection", "Secure packaging", "Transit safety", "Damage prevention"]
+      features: ["Weather protection", "Secure packaging", "Transit safety", "Damage prevention"],
+      image: freightShrinkwrap,
+      alt: "Freight cargo and shipping containers wrapped in protective shrink wrap material"
     },
     {
       icon: <Construction className="h-8 w-8" />,
       title: "Construction Sites",
       description: "Site protection and material covering for construction projects",
-      features: ["Material protection", "Weather barriers", "Site security", "Temporary covering"]
+      features: ["Material protection", "Weather barriers", "Site security", "Temporary covering"],
+      image: constructionShrinkwrap,
+      alt: "Construction site equipment and materials covered with protective shrink wrap"
     },
     {
       icon: <Train className="h-8 w-8" />,
       title: "Transportation",
       description: "Trains, helicopters, and specialized transportation equipment",
-      features: ["Aircraft protection", "Rail equipment", "Specialty vehicles", "Long-term storage"]
+      features: ["Aircraft protection", "Rail equipment", "Specialty vehicles", "Long-term storage"],
+      image: transportShrinkwrap,
+      alt: "Transportation equipment including train cars and helicopter covered in protective shrink wrap"
     },
     {
       icon: <Home className="h-8 w-8" />,
       title: "Modular & Mini Homes",
       description: "Residential structure protection during transport and storage",
-      features: ["Home protection", "Transit wrapping", "Weather shielding", "Secure covering"]
+      features: ["Home protection", "Transit wrapping", "Weather shielding", "Secure covering"],
+      image: homesShrinkwrap,
+      alt: "Modular homes and mini houses covered in protective shrink wrap during transport"
     }
   ];
 
@@ -167,13 +187,24 @@ const Services = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
-                <Card key={index} className="group hover:shadow-lg transition-all duration-300">
-                  <CardHeader>
-                    <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                      <div className="text-primary">
-                        {service.icon}
+                <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+                  <div className="relative h-48 overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.alt}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    <div className="absolute bottom-4 left-4">
+                      <div className="w-12 h-12 bg-primary/90 rounded-lg flex items-center justify-center">
+                        <div className="text-primary-foreground">
+                          {service.icon}
+                        </div>
                       </div>
                     </div>
+                  </div>
+                  <CardHeader>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
                     <CardDescription>{service.description}</CardDescription>
                   </CardHeader>
