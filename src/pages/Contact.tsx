@@ -55,66 +55,46 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card>
-                <CardContent className="p-10">
-                  <div className="flex items-start space-x-4">
-                    <Phone className="w-6 h-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Mobile Shrinkwrap LTD</h3>
-                      <p className="text-muted-foreground">(905) 327-4381</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+            <div className="space-y-6">
+              <div className="flex items-start space-x-4 p-6">
+                <Phone className="w-6 h-6 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Mobile Shrinkwrap LTD</h3>
+                  <p className="text-muted-foreground">(905) 327-4381</p>
+                </div>
+              </div>
 
-              <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <Phone className="w-6 h-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Phone 2</h3>
-                      <p className="text-muted-foreground">(905) 328-1271</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="flex items-start space-x-4 p-6">
+                <Phone className="w-6 h-6 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Phone 2</h3>
+                  <p className="text-muted-foreground">(905) 328-1271</p>
+                </div>
+              </div>
 
-              <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <Mail className="w-6 h-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                      <p className="text-muted-foreground">info@mobileshrinkwrap.ca</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="flex items-start space-x-4 p-6">
+                <Mail className="w-6 h-6 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Email</h3>
+                  <p className="text-muted-foreground">info@mobileshrinkwrap.ca</p>
+                </div>
+              </div>
 
-              <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <MapPin className="w-6 h-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Service Area</h3>
-                      <p className="text-muted-foreground">Ontario, Canada</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="flex items-start space-x-4 p-6">
+                <MapPin className="w-6 h-6 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Service Area</h3>
+                  <p className="text-muted-foreground">Ontario, Canada</p>
+                </div>
+              </div>
 
-              <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <Clock className="w-6 h-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Hours</h3>
-                      <p className="text-muted-foreground">Mon-Sat: 8AM-6PM</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="flex items-start space-x-4 p-6">
+                <Clock className="w-6 h-6 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Hours</h3>
+                  <p className="text-muted-foreground">Mon-Sat: 8AM-6PM</p>
+                </div>
+              </div>
             </div>
 
             <div className="bg-card p-6 rounded-lg border border-border">
