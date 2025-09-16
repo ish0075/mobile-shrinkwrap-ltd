@@ -74,8 +74,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "From small watercraft to oversized machinery and scaffolds. We custom‑fit on site." 
       }
     ],
-    phone: "+1-647-XXX-XXXX",
-    phoneDisplay: "(647) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Toronto, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -282,8 +282,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in seasonal protection for equipment that needs long-term outdoor storage." 
       }
     ],
-    phone: "+1-519-XXX-XXXX",
-    phoneDisplay: "(519) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "London, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -334,8 +334,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We service boats and marine equipment along the Detroit River and Great Lakes system." 
       }
     ],
-    phone: "+1-519-XXX-XXXX",
-    phoneDisplay: "(519) XXX‑XXXX",
+    phone: "+1-905-328-1271",
+    phoneDisplay: "(905) 328-1271",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Windsor, ON",
     openHours: "Mon–Sat 7:00–18:00",
