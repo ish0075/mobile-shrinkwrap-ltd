@@ -108,7 +108,7 @@ const GoogleReviews = () => {
             
             <Button variant="outline" size="lg" asChild>
               <a 
-                href="https://g.page/r/CRG5TjyaoBvpEAE" 
+                href="https://g.page/r/CRG5TjyaoBvpEAE/review" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center"
