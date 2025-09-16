@@ -117,8 +117,8 @@ const ServicesOverview = () => {
             <Button variant="cta" size="lg">
               Request Custom Quote
             </Button>
-            <Button variant="outline" size="lg">
-              Schedule Consultation
+            <Button variant="outline" size="lg" asChild>
+              <a href="tel:+1-905-328-1271">Call (905) 328-1271</a>
             </Button>
           </div>
         </div>
