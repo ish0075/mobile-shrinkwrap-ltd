@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -13,7 +14,9 @@ import {
   Calendar,
   MapPin,
   Star,
-  Anchor
+  Anchor,
+  Container,
+  Building2
 } from "lucide-react";
 
 // Import transport & cargo shrink wrap images
@@ -23,6 +26,9 @@ import cargoWeatherProtection from "@/assets/cargo-weather-protection.jpg";
 import tamperEvidentSealing from "@/assets/tamper-evident-sealing.jpg";
 import loadSecuring from "@/assets/load-securing.jpg";
 import cargoInstallationProcess from "@/assets/cargo-installation-process.jpg";
+import transportLogisticsShrinkwrap from "@/assets/transport-logistics-shrinkwrap.jpg";
+import freightWarehouseWrapping from "@/assets/freight-warehouse-wrapping.jpg";
+import cargoSecurityWrap from "@/assets/cargo-security-wrap.jpg";
 
 const TransportCargo = () => {
   const services = [
@@ -83,56 +89,151 @@ const TransportCargo = () => {
     }
   ];
 
+  const serviceAreas = [
+    { name: "Toronto", slug: "toronto" },
+    { name: "Mississauga", slug: "mississauga" },
+    { name: "Hamilton", slug: "hamilton" },
+    { name: "Ottawa", slug: "ottawa" },
+    { name: "London", slug: "london" },
+    { name: "Windsor", slug: "windsor" }
+  ];
+
+  const industries = [
+    {
+      icon: <Truck className="h-6 w-6" />,
+      title: "Long-Haul Trucking",
+      description: "Cross-country freight protection for extended transport duration"
+    },
+    {
+      icon: <Container className="h-6 w-6" />,
+      title: "Container Shipping",
+      description: "International and domestic container cargo security and weather protection"
+    },
+    {
+      icon: <Building2 className="h-6 w-6" />,
+      title: "Warehouse Distribution",
+      description: "On-site wrapping services at distribution centers and fulfillment facilities"
+    },
+    {
+      icon: <Package className="h-6 w-6" />,
+      title: "E-commerce Logistics",
+      description: "High-volume pallet protection for retail and e-commerce shipments"
+    }
+  ];
+
   return (
     <>
       <Helmet>
-        <title>Transport & Cargo Shrink Wrapping Ontario | Freight Protection Services</title>
+        <title>Transport & Cargo Shrink Wrapping Services Ontario | Professional Freight Protection | Mobile Shrink Wrap</title>
         <meta 
           name="description" 
-          content="Professional transport and cargo shrink wrapping services in Ontario. Secure freight during transport with weather protection, cargo stabilization, tamper-evident sealing, and load securing. Call (905) 327-4381" 
+          content="Professional transport and cargo shrink wrapping services across Ontario. Secure freight protection with weather-resistant wrapping, cargo stabilization, tamper-evident sealing, and load securing. Serving Toronto, Mississauga, Hamilton, Ottawa & more. Call (905) 327-4381 for free quote." 
         />
         <meta 
           name="keywords" 
-          content="transport shrink wrapping, cargo protection, freight wrapping, logistics shrink wrap, cargo stabilization, weather protection shipping, tamper evident sealing, load securing Ontario, freight protection services" 
+          content="transport shrink wrapping Ontario, cargo protection services, freight wrapping Toronto, logistics shrink wrap, cargo stabilization, pallet wrapping, tamper evident sealing, load securing Ontario, freight protection services, warehouse wrapping, container wrapping, shipping cargo protection, mobile freight wrapping" 
         />
-        <link rel="canonical" href="/transport-cargo-shrink-wrapping" />
+        <link rel="canonical" href="https://www.mobileshrinkwrapltd.com/services/transport-cargo-shrink-wrapping" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Transport & Cargo Shrink Wrapping Ontario | Freight Protection Services" />
-        <meta property="og:description" content="Professional transport and cargo shrink wrapping services in Ontario. Secure freight with weather protection, cargo stabilization, and tamper-evident sealing." />
+        <meta property="og:title" content="Transport & Cargo Shrink Wrapping Ontario | Professional Freight Protection" />
+        <meta property="og:description" content="Professional transport and cargo shrink wrapping services across Ontario. Secure freight with weather protection, cargo stabilization, and tamper-evident sealing." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="/transport-cargo-shrink-wrapping" />
-        <meta property="og:image" content={transportHeroShrinkwrap} />
+        <meta property="og:url" content="https://www.mobileshrinkwrapltd.com/services/transport-cargo-shrink-wrapping" />
+        <meta property="og:image" content={transportLogisticsShrinkwrap} />
         
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Transport & Cargo Shrink Wrapping Ontario | Freight Protection Services" />
-        <meta name="twitter:description" content="Professional transport and cargo shrink wrapping services in Ontario. Secure freight with weather protection and cargo stabilization." />
-        <meta name="twitter:image" content={transportHeroShrinkwrap} />
+        <meta name="twitter:title" content="Transport & Cargo Shrink Wrapping Ontario | Professional Freight Protection" />
+        <meta name="twitter:description" content="Professional transport and cargo shrink wrapping services across Ontario. Secure freight with weather protection and cargo stabilization." />
+        <meta name="twitter:image" content={transportLogisticsShrinkwrap} />
         
-        {/* Structured Data */}
+        {/* Structured Data - Service */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Transport & Cargo Shrink Wrapping Services",
-            "description": "Secure cargo and freight during transport. Weather-resistant wrapping for shipments and logistics with cargo stabilization, weather protection, tamper-evident sealing, and load securing.",
+            "description": "Professional freight and cargo protection services across Ontario. Weather-resistant wrapping for shipments and logistics with cargo stabilization, weather protection, tamper-evident sealing, and load securing.",
             "provider": {
-              "@type": "Organization",
-              "name": "Mobile Shrink Wrap",
+              "@type": "LocalBusiness",
+              "name": "Mobile Shrink Wrap Ltd",
               "telephone": "(905) 327-4381",
+              "email": "mobileshrinkwrapltd@gmail.com",
               "address": {
                 "@type": "PostalAddress",
                 "addressRegion": "Ontario",
-                "addressCountry": "Canada"
-              }
+                "addressCountry": "CA"
+              },
+              "url": "https://www.mobileshrinkwrapltd.com",
+              "priceRange": "$$",
+              "areaServed": [
+                {"@type": "City", "name": "Toronto", "containedIn": "Ontario, Canada"},
+                {"@type": "City", "name": "Mississauga", "containedIn": "Ontario, Canada"},
+                {"@type": "City", "name": "Hamilton", "containedIn": "Ontario, Canada"},
+                {"@type": "City", "name": "Ottawa", "containedIn": "Ontario, Canada"},
+                {"@type": "City", "name": "London", "containedIn": "Ontario, Canada"},
+                {"@type": "City", "name": "Windsor", "containedIn": "Ontario, Canada"}
+              ]
             },
-            "areaServed": "Ontario, Canada",
             "serviceType": "Freight and Cargo Protection",
             "offers": {
               "@type": "Offer",
-              "description": "Professional transport shrink wrapping with cargo stabilization, weather protection, tamper-evident sealing, and load securing"
+              "description": "Professional transport shrink wrapping with cargo stabilization, weather protection, tamper-evident sealing, and load securing",
+              "availability": "https://schema.org/InStock"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Transport & Cargo Services",
+              "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cargo Stabilization"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Weather Protection"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tamper-Evident Sealing"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Load Securing"}}
+              ]
             }
+          })}
+        </script>
+
+        {/* Structured Data - FAQ */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What types of cargo can you shrink wrap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We can wrap virtually any type of freight including palletized goods, machinery, containers, bulk materials, and specialized cargo. Our solutions are customized for your specific shipment needs across Ontario."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does tamper-evident sealing work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our tamper-evident materials show clear visual signs if someone attempts to access the cargo. This includes color-changing indicators, tear patterns, and other security features that maintain chain of custody throughout transport."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you provide on-site wrapping at logistics facilities?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We provide mobile services at warehouses, distribution centers, shipping docks, and transport hubs across Ontario including Toronto, Mississauga, Hamilton, and Ottawa. We work around your logistics schedule for minimal disruption."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What areas in Ontario do you serve for cargo wrapping?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We provide mobile transport and cargo shrink wrapping services throughout Ontario including Toronto, Mississauga, Hamilton, Ottawa, London, Windsor, and all surrounding areas. Our mobile crews can service warehouses, distribution centers, and logistics facilities across the province."
+                }
+              }
+            ]
           })}
         </script>
       </Helmet>
@@ -166,6 +267,74 @@ const TransportCargo = () => {
                 </Button>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Get Free Quote
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Security & Protection Section */}
+        <section className="py-20 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1">
+                <img
+                  src={cargoSecurityWrap}
+                  alt="Close-up of tamper-evident security shrink wrap on freight cargo showing protection features"
+                  className="rounded-lg shadow-xl w-full"
+                  loading="lazy"
+                />
+              </div>
+              <div className="order-1 lg:order-2">
+                <Badge variant="secondary" className="mb-4">
+                  Advanced Security
+                </Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Tamper-Evident Protection for High-Value Freight
+                </h2>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Protect your valuable cargo with advanced tamper-evident shrink wrap technology. 
+                  Our security features provide immediate visual confirmation of cargo integrity 
+                  throughout the entire supply chain.
+                </p>
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                      <Lock className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-lg mb-1">Chain of Custody</h3>
+                      <p className="text-muted-foreground">
+                        Maintain verifiable cargo security from warehouse to final destination
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                      <Shield className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-lg mb-1">Theft Deterrent</h3>
+                      <p className="text-muted-foreground">
+                        Visible security features discourage unauthorized access and tampering
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                      <CheckCircle className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-lg mb-1">Insurance Compliance</h3>
+                      <p className="text-muted-foreground">
+                        Meet insurance requirements for high-value cargo shipments
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <Button size="lg" variant="outline">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Discuss Security Needs
                 </Button>
               </div>
             </div>
@@ -326,8 +495,11 @@ const TransportCargo = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Trusted by Leading Logistics Companies
+                Trusted by Leading Logistics Companies Across Ontario
               </h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Proven track record in freight protection and cargo security
+              </p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -351,6 +523,137 @@ const TransportCargo = () => {
           </div>
         </section>
 
+        {/* Industries Served Section */}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Industries We Serve
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Specialized freight protection solutions for diverse logistics operations across Ontario
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {industries.map((industry, index) => (
+                <Card key={index} className="text-center p-6 hover:shadow-lg transition-all">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="text-primary">
+                      {industry.icon}
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{industry.title}</h3>
+                  <p className="text-muted-foreground">{industry.description}</p>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Service Areas Section */}
+        <section className="py-20 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Transport & Cargo Shrink Wrapping Service Areas
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Mobile freight protection services at warehouses, distribution centers, and logistics facilities throughout Ontario
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
+              {serviceAreas.map((area) => (
+                <Link
+                  key={area.slug}
+                  to={`/shrink-wrapping-${area.slug}-on`}
+                  className="group"
+                >
+                  <Card className="p-6 text-center hover:shadow-lg transition-all hover:border-primary">
+                    <div className="flex items-center justify-center mb-3">
+                      <MapPin className="h-6 w-6 text-primary mr-2" />
+                      <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
+                        {area.name}
+                      </h3>
+                    </div>
+                    <p className="text-muted-foreground text-sm">
+                      Cargo wrapping services available
+                    </p>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+
+            <div className="text-center">
+              <p className="text-lg text-muted-foreground mb-6">
+                We also serve: St. Catharines, Burlington, Brampton, Niagara Region, Golden Horseshoe, and all surrounding Ontario communities
+              </p>
+              <Link to="/service-areas">
+                <Button variant="outline" size="lg">
+                  <MapPin className="mr-2 h-5 w-5" />
+                  View All Service Areas
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* New Image Section - Warehouse Operations */}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <Badge variant="secondary" className="mb-4">
+                  On-Site Service
+                </Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Mobile Cargo Wrapping at Your Facility
+                </h2>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Our mobile teams bring professional freight protection directly to your warehouse, 
+                  distribution center, or logistics facility. We work efficiently around your shipping 
+                  schedules to minimize operational disruption.
+                </p>
+                <ul className="space-y-3 mb-8">
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                    <span>Same-day and emergency service available across Ontario</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                    <span>High-volume capacity for busy logistics operations</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                    <span>Professional crews trained in logistics facility protocols</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                    <span>Flexible scheduling including after-hours service</span>
+                  </li>
+                </ul>
+                <Button size="lg">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Schedule Facility Service
+                </Button>
+              </div>
+              <div className="relative">
+                <img
+                  src={freightWarehouseWrapping}
+                  alt="Mobile cargo shrink wrapping service at warehouse facility with freight protection"
+                  className="rounded-lg shadow-xl w-full"
+                  loading="lazy"
+                />
+                <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-lg hidden lg:block">
+                  <div className="text-3xl font-bold mb-1">Ontario-Wide</div>
+                  <div className="text-sm opacity-90">Mobile Service</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-primary to-primary-variant text-primary-foreground">
           <div className="container mx-auto px-4 text-center">
@@ -366,16 +669,22 @@ const TransportCargo = () => {
                 size="lg" 
                 variant="secondary" 
                 className="w-full sm:w-auto text-lg px-8 py-4"
+                asChild
               >
-                <Phone className="mr-2 h-5 w-5" />
-                Call (905) 327-4381
+                <a href="tel:+1-905-327-4381">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call (905) 327-4381
+                </a>
               </Button>
               <Button 
                 size="lg" 
                 variant="outline" 
                 className="w-full sm:w-auto text-lg px-8 py-4 border-white/20 text-white hover:bg-white/10"
+                asChild
               >
-                Schedule Service
+                <Link to="/contact">
+                  Schedule Service
+                </Link>
               </Button>
             </div>
           </div>
@@ -398,7 +707,7 @@ const TransportCargo = () => {
                 <CardContent>
                   <p className="text-muted-foreground">
                     We can wrap virtually any type of freight including palletized goods, machinery, 
-                    containers, bulk materials, and specialized cargo. Our solutions are customized for your specific shipment needs.
+                    containers, bulk materials, and specialized cargo. Our solutions are customized for your specific shipment needs across Ontario.
                   </p>
                 </CardContent>
               </Card>
@@ -410,7 +719,7 @@ const TransportCargo = () => {
                 <CardContent>
                   <p className="text-muted-foreground">
                     Our tamper-evident materials show clear visual signs if someone attempts to access the cargo. 
-                    This includes color-changing indicators, tear patterns, and other security features that maintain chain of custody.
+                    This includes color-changing indicators, tear patterns, and other security features that maintain chain of custody throughout transport.
                   </p>
                 </CardContent>
               </Card>
@@ -422,7 +731,7 @@ const TransportCargo = () => {
                 <CardContent>
                   <p className="text-muted-foreground">
                     Yes! We provide mobile services at warehouses, distribution centers, shipping docks, 
-                    and transport hubs across Ontario. We work around your logistics schedule for minimal disruption.
+                    and transport hubs across Ontario including Toronto, Mississauga, Hamilton, Ottawa, and surrounding areas. We work around your logistics schedule for minimal disruption.
                   </p>
                 </CardContent>
               </Card>
@@ -435,6 +744,19 @@ const TransportCargo = () => {
                   <p className="text-muted-foreground">
                     Wrapping time depends on cargo size and complexity, but most standard loads can be completed 
                     in 30-90 minutes. We work efficiently to minimize delays in your shipping schedule.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">What areas in Ontario do you serve for cargo wrapping?</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    We provide mobile transport and cargo shrink wrapping services throughout Ontario including Toronto, Mississauga, 
+                    Hamilton, Ottawa, London, Windsor, and all surrounding areas. Our mobile crews can service warehouses, distribution centers, 
+                    and logistics facilities across the province.
                   </p>
                 </CardContent>
               </Card>
