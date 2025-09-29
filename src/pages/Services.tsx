@@ -107,7 +107,7 @@ const Services = () => {
         <title>Mobile Shrink Wrap Services Ontario | Professional Equipment Protection</title>
         <meta 
           name="description" 
-          content="Professional mobile shrink wrapping services in Ontario. Protect boats, machinery, construction sites, trains, modular homes & more. Free consultation. Call (905) 328-1271" 
+          content="Professional mobile shrink wrapping services in Ontario. Protect boats, machinery, construction sites, trains, modular homes & more. Free consultation. Call (905) 327-4381" 
         />
         <meta 
           name="keywords" 
@@ -136,7 +136,7 @@ const Services = () => {
             "provider": {
               "@type": "Organization",
               "name": "Mobile Shrink Wrap",
-              "telephone": "(905) 328-1271"
+              "telephone": "(905) 327-4381"
             },
             "areaServed": "Ontario, Canada",
             "serviceType": "Shrink Wrapping Services"
@@ -162,7 +162,7 @@ const Services = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button size="lg" className="w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call Today (905) 328-1271
+                  Call Today (905) 327-4381
                 </Button>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Free Consultation
@@ -269,7 +269,7 @@ const Services = () => {
                 className="w-full sm:w-auto text-lg px-8 py-4"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call (905) 328-1271
+                Call (905) 327-4381
               </Button>
               <Button 
                 size="lg" 

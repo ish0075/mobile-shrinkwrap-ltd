@@ -89,8 +89,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "From small watercraft to oversized machinery and scaffolds. We custom‑fit on site." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Toronto, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -141,8 +141,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "Our heavy-duty materials are tested for extreme cold and wind conditions common in the capital region." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Ottawa, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -193,8 +193,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We work with cargo facilities and equipment near Pearson, following all airport security protocols." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Mississauga, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -245,8 +245,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We regularly service marine and port facilities, following all safety protocols for working near water." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Hamilton, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -297,8 +297,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in seasonal protection for equipment that needs long-term outdoor storage." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "London, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -349,8 +349,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We service boats and marine equipment along the Detroit River and Great Lakes system." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Windsor, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -401,8 +401,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide comprehensive marina services at Port Dalhousie and throughout the Lake Ontario shoreline." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "St. Catharines, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -453,8 +453,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in protecting farm equipment and agricultural machinery throughout the region." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Thorold, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -505,8 +505,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide premium marine protection services for high-end vessels throughout the region." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Niagara-on-the-Lake, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -557,8 +557,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We service marine repair yards and boat building facilities throughout the Welland area." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Welland, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -609,8 +609,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We protect agricultural and greenhouse equipment throughout the Fort Erie growing region." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Fort Erie, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -661,8 +661,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide marine protection services for commercial and recreational fishing equipment." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Port Colborne, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -713,8 +713,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in seasonal protection for tractors, combines, and other farm machinery." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Fonthill, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -765,8 +765,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide seasonal protection for cottage and recreational property equipment." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Wainfleet, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -817,8 +817,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide comprehensive service throughout all Stoney Creek neighborhoods." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Stoney Creek, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -869,8 +869,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We coordinate our services to minimize impact on tourism operations and facilities." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Grimsby, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -921,8 +921,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in protecting fruit processing and agricultural equipment throughout the fruit belt." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Lincoln, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -973,8 +973,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide premium protection services for residential boat owners and marina facilities." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Burlington, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -1025,8 +1025,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We specialize in protecting automotive and logistics equipment throughout the eastern GTA." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Scarborough, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -1077,8 +1077,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide specialized protection for food processing and agricultural equipment." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Brampton, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -1129,8 +1129,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We provide comprehensive residential equipment protection services throughout Milton." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Milton, ON",
     openHours: "Mon–Sat 7:00–18:00",
@@ -1181,8 +1181,8 @@ export const cityDataMap: Record<string, CityData> = {
         a: "We coordinate our services around cottage seasons and winter storage requirements." 
       }
     ],
-    phone: "+1-905-328-1271",
-    phoneDisplay: "(905) 328-1271",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
     email: "mobileshrinkwrapltd@gmail.com",
     address: "Muskoka, ON",
     openHours: "Mon–Sat 7:00–18:00",

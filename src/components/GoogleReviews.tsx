@@ -122,8 +122,8 @@ const GoogleReviews = () => {
           <div className="mt-6 p-4 bg-primary/5 rounded-lg">
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">Need help?</strong> Contact us at{' '}
-              <a href="tel:+1-905-328-1271" className="text-primary hover:underline">
-                (905) 328-1271
+              <a href="tel:+1-905-327-4381" className="text-primary hover:underline">
+                (905) 327-4381
               </a>{' '}
               or{' '}
               <a href="mailto:mobileshrinkwrapltd@gmail.com" className="text-primary hover:underline">

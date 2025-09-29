@@ -115,7 +115,7 @@ const CommercialIndustrial = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Mobile Shrink Wrap LTD",
-      "telephone": "+1-905-328-1271",
+      "telephone": "+1-905-327-4381",
       "email": "mobileshrinkwrapltd@gmail.com",
       "areaServed": "Ontario, Canada"
     },
@@ -228,7 +228,7 @@ const CommercialIndustrial = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <Button size="lg" variant="cta" asChild>
-                    <a href="tel:+1-905-328-1271">
+                    <a href="tel:+1-905-327-4381">
                       <Phone className="w-5 h-5 mr-2" />
                       Get Industrial Quote
                     </a>
@@ -534,9 +534,9 @@ const CommercialIndustrial = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="cta" asChild>
-                <a href="tel:+1-905-328-1271">
+                <a href="tel:+1-905-327-4381">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (905) 328-1271
+                  Call (905) 327-4381
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

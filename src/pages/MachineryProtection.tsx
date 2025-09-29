@@ -116,7 +116,7 @@ const MachineryProtection = () => {
         <title>Machinery Protection Ontario | White Shrinkwrap Equipment Protection Services</title>
         <meta 
           name="description" 
-          content="Professional machinery protection services in Ontario using premium white shrinkwrap. Protect heavy equipment, industrial machinery, tractors & containers from weather damage. Expert installation. Call (905) 328-1271" 
+          content="Professional machinery protection services in Ontario using premium white shrinkwrap. Protect heavy equipment, industrial machinery, tractors & containers from weather damage. Expert installation. Call (905) 327-4381" 
         />
         <meta 
           name="keywords" 
@@ -147,7 +147,7 @@ const MachineryProtection = () => {
             "provider": {
               "@type": "Organization", 
               "name": "Mobile Shrink Wrap",
-              "telephone": "(905) 328-1271",
+              "telephone": "(905) 327-4381",
               "address": {
                 "@type": "PostalAddress",
                 "addressRegion": "Ontario",
@@ -190,7 +190,7 @@ const MachineryProtection = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button size="lg" className="w-full sm:w-auto">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call (905) 328-1271
+                  Call (905) 327-4381
                 </Button>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Get Free Protection Quote
@@ -406,7 +406,7 @@ const MachineryProtection = () => {
                 className="w-full sm:w-auto text-lg px-8 py-4"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call (905) 328-1271
+                Call (905) 327-4381
               </Button>
               <Button 
                 size="lg" 

@@ -64,9 +64,9 @@ const regionData: Record<string, RegionData> = {
         a: "Yes. We coordinate with site supervisors for access and safety. We provide containment, zipper doors, and venting as required." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, Toronto, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",
@@ -116,9 +116,9 @@ const regionData: Record<string, RegionData> = {
         a: "We service from Hamilton in the west to Oshawa in the east, including all municipalities within the greater horseshoe region." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, Hamilton, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",
@@ -168,9 +168,9 @@ const regionData: Record<string, RegionData> = {
         a: "Book early fall (September-October) to ensure availability before winter weather. We service the region until freeze-up allows safe lake access." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, Muskoka, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",
@@ -220,9 +220,9 @@ const regionData: Record<string, RegionData> = {
         a: "Absolutely. We provide marine shrink wrapping services at marinas and facilities along the entire Welland Canal system and Lake Ontario shoreline." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, St. Catharines, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",
@@ -272,9 +272,9 @@ const regionData: Record<string, RegionData> = {
         a: "We work with petrochemical facilities and can provide appropriate materials and safety protocols for industrial environments." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, Windsor, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",
@@ -324,9 +324,9 @@ const regionData: Record<string, RegionData> = {
         a: "We service remote locations throughout Eastern Ontario, including cottage country and industrial sites accessible by seasonal roads." 
       }
     ],
-    phone: "+1-XXX-XXX-XXXX",
-    phoneDisplay: "(XXX) XXX‑XXXX",
-    email: "quotes@mobileshrinkwrapltd.com",
+    phone: "+1-905-327-4381",
+    phoneDisplay: "(905) 327-4381",
+    email: "mobileshrinkwrapltd@gmail.com",
     address: "123 Example Rd, Ottawa, ON",
     openHours: "Mon–Sat 7:00–18:00",
     gmbUrl: "https://g.page/your-google-business-profile",

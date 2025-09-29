@@ -99,7 +99,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground text-sm">(905) 328-1271</span>
+                <span className="text-muted-foreground text-sm">(905) 327-4381</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
