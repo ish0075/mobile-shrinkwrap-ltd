@@ -63,10 +63,12 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="cta" size="xl" className="text-lg">
+            <Button variant="cta" size="xl" className="text-lg font-bold text-white" asChild>
+              <a href="tel:9053274381">
                 <Phone className="w-5 h-5 mr-2" />
                 Get Free Quote Today
-              </Button>
+              </a>
+            </Button>
               <Button 
                 variant="cta-outline" 
                 size="xl" 
