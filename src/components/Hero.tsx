@@ -84,11 +84,11 @@ const Hero = () => {
 
             {/* Emergency Contact */}
             <div className="mt-8 p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20">
-              <p className="text-white/90 text-sm mb-2">Emergency or Rush Service?</p>
-              <a href="tel:9053274381" className="text-secondary font-bold text-xl hover:text-secondary-light transition-colors">
+              <p className="text-white font-bold text-sm mb-2">Emergency or Rush Service?</p>
+              <a href="tel:9053274381" className="text-white font-bold text-xl hover:text-secondary-light transition-colors">
                 (905) 327-4381
               </a>
-              <p className="text-white/80 text-sm mt-1">Available 7 days a week</p>
+              <p className="text-white font-bold text-sm mt-1">Available 7 days a week</p>
             </div>
           </div>
 

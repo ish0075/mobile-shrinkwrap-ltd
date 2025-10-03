@@ -1,6 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Anchor, Cog, Truck, Building, Factory, Home, ArrowRight } from "lucide-react";
+import boatImage from "@/assets/services/boat-shrinkwrap.jpg";
+import machineryImage from "@/assets/services/machinery-shrinkwrap.jpg";
+import transportImage from "@/assets/services/transport-shrinkwrap.jpg";
+import constructionImage from "@/assets/services/construction-shrinkwrap.jpg";
+import commercialImage from "@/assets/services/commercial-industrial-shrinkwrap.jpg";
+import residentialImage from "@/assets/services/homes-shrinkwrap.jpg";
 
 const ServicesOverview = () => {
   const services = [
@@ -10,6 +16,8 @@ const ServicesOverview = () => {
       description: "Professional winterization for boats, yachts, and marine equipment. Protect against snow, ice, and moisture damage.",
       features: ["Winter storage protection", "Custom fit installation", "Ventilation systems", "UV-resistant materials"],
       href: "/boat-shrink-wrapping",
+      image: boatImage,
+      alt: "Professional boat shrink wrapping service for winter protection in Ontario marinas",
     },
     {
       icon: Cog,
@@ -17,6 +25,8 @@ const ServicesOverview = () => {
       description: "Industrial equipment protection during storage, transport, or outdoor use. Keep machinery safe from elements.",
       features: ["Heavy machinery protection", "Corrosion prevention", "Dust and debris shield", "Long-term storage"],
       href: "/machinery-shrink-wrapping",
+      image: machineryImage,
+      alt: "Industrial machinery shrink wrapping for corrosion protection and equipment storage",
     },
     {
       icon: Truck,
@@ -24,6 +34,8 @@ const ServicesOverview = () => {
       description: "Secure cargo and freight during transport. Weather-resistant wrapping for shipments and logistics.",
       features: ["Cargo stabilization", "Weather protection", "Tamper-evident sealing", "Load securing"],
       href: "/transport-cargo-shrink-wrapping",
+      image: transportImage,
+      alt: "Transport and cargo shrink wrapping services for freight logistics and secure shipping",
     },
     {
       icon: Building,
@@ -31,6 +43,8 @@ const ServicesOverview = () => {
       description: "Temporary weather protection for construction sites, scaffolding, and building materials.",
       features: ["Scaffold enclosure", "Material protection", "Weather barriers", "Site security"],
       href: "/construction-wrapping",
+      image: constructionImage,
+      alt: "Construction site shrink wrapping for scaffolding and weather protection",
     },
     {
       icon: Factory,
@@ -38,6 +52,8 @@ const ServicesOverview = () => {
       description: "Large-scale shrink wrapping for commercial facilities, equipment, and industrial applications.",
       features: ["Large structure wrapping", "Equipment mothballing", "Facility protection", "Custom solutions"],
       href: "/commercial-industrial-shrink-wrapping",
+      image: commercialImage,
+      alt: "Commercial and industrial facility shrink wrapping for large scale equipment protection",
     },
     {
       icon: Home,
@@ -45,6 +61,8 @@ const ServicesOverview = () => {
       description: "Home and property protection including pools, outdoor furniture, and seasonal equipment.",
       features: ["Pool winterization", "Furniture protection", "Equipment storage", "Seasonal wrapping"],
       href: "/residential-shrink-wrapping",
+      image: residentialImage,
+      alt: "Residential shrink wrapping services for pools and outdoor furniture winterization",
     },
   ];
 
@@ -66,11 +84,20 @@ const ServicesOverview = () => {
           {services.map((service) => {
             const Icon = service.icon;
             return (
-              <Card key={service.title} className="group hover:shadow-strong transition-all duration-300 border-0 shadow-medium bg-card/50 backdrop-blur-sm">
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="w-8 h-8 text-primary-foreground" />
+              <Card key={service.title} className="group hover:shadow-strong transition-all duration-300 border-0 shadow-medium bg-card/50 backdrop-blur-sm overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.alt}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
+                    <Icon className="w-6 h-6 text-primary-foreground" />
                   </div>
+                </div>
+                <CardHeader className="text-center pb-4">
                   <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {service.title}
                   </CardTitle>
