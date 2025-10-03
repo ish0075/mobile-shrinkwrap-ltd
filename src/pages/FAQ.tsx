@@ -85,6 +85,30 @@ const FAQ = () => {
     {
       question: "Do you offer custom shrink wrap?",
       answer: "Yes, we do! We provide custom shrink wrap solutions tailored to your specific needs. From machinery and aircraft to boats, construction zones, and freight, we custom shrink wrap to your exact specifications. Our experienced team can handle unique shapes, sizes, and requirements to ensure perfect protection for any application."
+    },
+    {
+      question: "How does crating compare to shrink wrapping?",
+      answer: "Shrink wrapping offers several advantages over traditional crating. It's more cost-effective, lighter weight, and faster to apply. Unlike wooden crates, shrink wrap conforms to any shape, provides waterproof protection, and is transparent for easy inventory checks. Shrink wrap also eliminates the need for expensive lumber and the disposal challenges of wooden crates."
+    },
+    {
+      question: "How does shrink wrap compare to a tarp?",
+      answer: "Shrink wrap is far superior to tarps for protection. Unlike tarps that flap in wind, collect water, and allow moisture underneath, shrink wrap creates a tight, custom-fit seal that eliminates these issues. It provides better UV protection, won't tear as easily, and offers a more professional appearance. Shrink wrap also prevents mold and mildew by keeping moisture completely out."
+    },
+    {
+      question: "What can shrink wrap cover?",
+      answer: "Shrink wrap can cover virtually anything that needs protection! Common applications include boats, RVs, construction equipment, machinery, cargo containers, scaffolding, outdoor furniture, vehicles, industrial equipment, modular homes, aircraft, and palletized freight. If it needs protection from weather, dust, or damage during storage or transport, we can shrink wrap it."
+    },
+    {
+      question: "Is shrink wrap material recyclable?",
+      answer: "Yes! Our shrink wrap material is 100% recyclable. The polyethylene plastic can be processed at facilities that handle plastic film recycling. We can arrange for proper removal and recycling of the material at the end of its use, making it an environmentally responsible protection solution."
+    },
+    {
+      question: "Can shrink wrap damage a product?",
+      answer: "No, when professionally applied, shrink wrap will not damage your products. We use proper padding, protective materials, and proven techniques to ensure your items are protected. The material won't harm paint, gel coat, or other finishes. Our experienced team knows how to wrap delicate surfaces safely while creating a secure, protective barrier."
+    },
+    {
+      question: "Can shrink wrapping protect items from dust and debris during transportation?",
+      answer: "Absolutely! Shrink wrap creates a completely sealed barrier that protects items from dust, debris, dirt, and contaminants during transportation. The tight seal prevents particles from entering, keeping your items clean and pristine. This makes shrink wrap ideal for transporting machinery, equipment, and products that must arrive in perfect condition."
     }
   ];
 
