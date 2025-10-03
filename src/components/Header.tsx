@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone, MapPin, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, MapPin, ChevronDown, Package } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 import {
@@ -43,7 +43,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">MSW</span>
+              <Package className="text-primary-foreground w-6 h-6" />
             </div>
             <div className="flex flex-col">
               <span className="text-sm sm:text-lg font-bold text-foreground">Mobile Shrink Wrap Ltd</span>
