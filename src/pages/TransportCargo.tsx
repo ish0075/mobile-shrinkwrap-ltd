@@ -29,6 +29,9 @@ import cargoInstallationProcess from "@/assets/cargo-installation-process.jpg";
 import transportLogisticsShrinkwrap from "@/assets/transport-logistics-shrinkwrap.jpg";
 import freightWarehouseWrapping from "@/assets/freight-warehouse-wrapping.jpg";
 import cargoSecurityWrap from "@/assets/cargo-security-wrap.jpg";
+import transportPalletShrinkwrap from "@/assets/transport-pallet-shrinkwrap.jpg";
+import transportTruckCargoWrap from "@/assets/transport-truck-cargo-wrap.jpg";
+import transportContainerWrapping from "@/assets/transport-container-wrapping.jpg";
 
 const TransportCargo = () => {
   const services = [
@@ -124,10 +127,10 @@ const TransportCargo = () => {
   return (
     <>
       <Helmet>
-        <title>Transport & Cargo Shrink Wrapping Services Ontario | Professional Freight Protection | Mobile Shrink Wrap</title>
+        <title>Transport & Cargo Shrink Wrapping Ontario | Mobile Freight Protection Services Toronto, Mississauga, Hamilton</title>
         <meta 
           name="description" 
-          content="Professional transport and cargo shrink wrapping services across Ontario. Secure freight protection with weather-resistant wrapping, cargo stabilization, tamper-evident sealing, and load securing. Serving Toronto, Mississauga, Hamilton, Ottawa & more. Call (905) 327-4381 for free quote." 
+          content="Professional mobile transport and cargo shrink wrapping services across Ontario. Expert freight protection with weather-resistant wrapping, pallet securing, tamper-evident sealing, and load stabilization. Serving Toronto, Mississauga, Hamilton, Ottawa, London, Windsor & GTA. Licensed & insured. Call (905) 327-4381 for same-day service and free quote." 
         />
         <meta 
           name="keywords" 
@@ -244,7 +247,7 @@ const TransportCargo = () => {
           <div className="absolute inset-0 z-0">
             <img
               src={transportHeroShrinkwrap}
-              alt="Professional transport cargo shrink wrapping service showing freight containers covered in protective wrap"
+              alt="Mobile cargo shrink wrapping service in Ontario showing freight containers and pallets protected with industrial shrink wrap at Toronto distribution center"
               className="w-full h-full object-cover opacity-20"
             />
           </div>
@@ -254,11 +257,10 @@ const TransportCargo = () => {
                 Freight & Logistics Protection
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 gradient-text">
-                Transport & Cargo Shrink Wrapping
+                Transport & Cargo Shrink Wrapping Services Across Ontario
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-                Secure cargo and freight during transport. Weather-resistant wrapping for shipments 
-                and logistics with professional stabilization and security features.
+                Professional mobile freight protection for Ontario businesses. Weather-resistant cargo shrink wrapping with tamper-evident security, pallet stabilization, and load securing for safe transport across Toronto, GTA, Hamilton, Ottawa, and beyond.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button size="lg" className="w-full sm:w-auto">
@@ -760,6 +762,85 @@ const TransportCargo = () => {
                   </p>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Ontario Cargo Protection Showcase */}
+        <section className="py-20 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Professional Cargo Protection Throughout Ontario
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Comprehensive freight shrink wrapping solutions for businesses across Toronto, GTA, Hamilton, and Southern Ontario
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={transportPalletShrinkwrap} 
+                    alt="Pallet shrink wrapping service in Ontario warehouse for cargo stabilization and freight protection in Toronto distribution center"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle>Pallet Shrink Wrapping</CardTitle>
+                  <CardDescription>
+                    Secure pallet protection for warehouse and distribution operations across Ontario, including Toronto, Mississauga, and Hamilton facilities.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={transportTruckCargoWrap} 
+                    alt="Truck cargo shrink wrapping at Ontario loading dock for freight transport protection serving GTA and Southern Ontario"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle>Truck Cargo Protection</CardTitle>
+                  <CardDescription>
+                    Complete freight protection for long-haul transport across Ontario, ensuring cargo arrives safely from Windsor to Ottawa.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={transportContainerWrapping} 
+                    alt="Shipping container shrink wrapping service at Ontario port for international freight protection and cargo security"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle>Container Wrapping</CardTitle>
+                  <CardDescription>
+                    Industrial shrink wrapping for shipping containers at Ontario ports, logistics hubs, and international freight terminals.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-lg text-muted-foreground mb-6">
+                Serving Major Ontario Logistics Hubs: Toronto Pearson Cargo, Hamilton Port, Windsor Border, Ottawa Distribution Centers, London Warehouses, and all GTA facilities
+              </p>
+              <Button size="lg" variant="cta" asChild>
+                <a href="tel:9053274381" className="font-bold text-white">
+                  <Phone className="mr-2 h-5 w-5" />
+                  (905) 327-4381
+                </a>
+              </Button>
             </div>
           </div>
         </section>
