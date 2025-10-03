@@ -141,8 +141,8 @@ const ServicesOverview = () => {
             Every project is unique. Our experts will assess your specific needs and provide a tailored shrink wrapping solution.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="cta" size="lg">
-              Request Custom Quote
+            <Button variant="cta" size="lg" className="font-bold text-white" asChild>
+              <a href="tel:9053274381">(905) 327-4381</a>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="tel:+1-905-327-4381">Call (905) 327-4381</a>
