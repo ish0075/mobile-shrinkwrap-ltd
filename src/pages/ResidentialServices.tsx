@@ -19,10 +19,10 @@ import {
   TreePine
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import boatWinterStorage from '@/assets/boat-winter-storage.jpg';
-import boatHero from '@/assets/boat-hero-shrinkwrap.jpg';
-import boatVentilation from '@/assets/boat-ventilation-system.jpg';
-import boatCustomFit from '@/assets/boat-custom-fit.jpg';
+import residentialPoolWinterization from '@/assets/residential-pool-winterization.jpg';
+import residentialFurnitureProtection from '@/assets/residential-furniture-protection.jpg';
+import residentialEquipmentStorage from '@/assets/residential-equipment-storage.jpg';
+import residentialHomeProtection from '@/assets/residential-home-protection.jpg';
 
 const ResidentialServices = () => {
   const services = [
@@ -295,8 +295,8 @@ const ResidentialServices = () => {
 
               <div className="relative">
                 <img
-                  src={boatWinterStorage}
-                  alt="Residential pool winterization and outdoor furniture protection services in Ontario"
+                  src={residentialPoolWinterization}
+                  alt="Professional residential pool winterization and shrink wrap protection services in Ontario homes"
                   className="rounded-lg shadow-strong w-full h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
@@ -374,8 +374,8 @@ const ResidentialServices = () => {
 
               <div className="relative">
                 <img
-                  src={boatHero}
-                  alt="Professional residential shrink wrapping for outdoor furniture and equipment protection"
+                  src={residentialFurnitureProtection}
+                  alt="Professional outdoor furniture shrink wrapping and patio protection services for Ontario residential homes"
                   className="rounded-lg shadow-strong w-full h-[400px] object-cover"
                 />
               </div>
@@ -512,19 +512,19 @@ const ResidentialServices = () => {
                 <h3 className="text-2xl font-bold text-foreground">Recent Residential Projects</h3>
                 <div className="grid grid-cols-2 gap-4">
                   <img
-                    src={boatVentilation}
-                    alt="Professional pool winterization with proper ventilation systems"
+                    src={residentialEquipmentStorage}
+                    alt="Professional lawn equipment and garden tool protection with shrink wrap storage in Ontario"
                     className="rounded-lg shadow-medium h-32 w-full object-cover"
                   />
                   <img
-                    src={boatCustomFit}
-                    alt="Custom-fit outdoor furniture protection and seasonal wrapping"
+                    src={residentialFurnitureProtection}
+                    alt="Custom-fit outdoor patio furniture protection and seasonal shrink wrapping services"
                     className="rounded-lg shadow-medium h-32 w-full object-cover"
                   />
                   <div className="col-span-2">
                     <img
-                      src={boatWinterStorage}
-                      alt="Complete residential equipment storage and winterization services"
+                      src={residentialHomeProtection}
+                      alt="Complete residential property equipment storage and winterization shrink wrap services in Ontario"
                       className="rounded-lg shadow-medium h-32 w-full object-cover"
                     />
                   </div>
