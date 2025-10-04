@@ -97,6 +97,20 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* Google Maps Embed */}
+            <div className="rounded-lg overflow-hidden border border-border shadow-sm">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.0957159056975!2d-79.26063092374294!3d43.20171418151444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3511e5da74e05%3A0xe91ba09a3c4eb911!2sMobile%20Shrinkwrap%20LTD.!5e1!3m2!1sen!2sca!4v1759586336114!5m2!1sen!2sca" 
+                width="100%" 
+                height="300" 
+                style={{ border: 0 }} 
+                allowFullScreen
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mobile Shrinkwrap LTD Location"
+              />
+            </div>
+
             <div className="bg-card p-6 rounded-lg border border-border">
               <h3 className="text-lg font-semibold text-foreground mb-3">Emergency Services</h3>
               <p className="text-muted-foreground mb-4">
