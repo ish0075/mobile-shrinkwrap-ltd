@@ -85,7 +85,7 @@ const GoogleReviews = () => {
         {/* CTA Section */}
         <div className="text-center bg-background rounded-lg p-8 shadow-soft">
           <h3 className="text-2xl font-bold text-foreground mb-4">
-            Experienced Our Service?
+            Experienced Our Service? Leave a Google Review
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             We&apos;d love to hear about your experience! Your feedback helps us improve 
